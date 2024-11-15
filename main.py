@@ -25,5 +25,6 @@ def compare_lists(list1, list2):
 
 list1 = file2array(sys.argv[1])
 list2 = file2array(sys.argv[2])
-print (compare_lists(list1, list2))
+for element in (compare_lists(list1, list2)):
+    print (element.strip())
 
