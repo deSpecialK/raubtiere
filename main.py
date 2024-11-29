@@ -23,6 +23,7 @@ def compare_lists(list1, list2):
     #Gibt die Variable common zurueck
     return common
 
+#function to find out differences between two lists
 def differences_lists(list1, list2):
     # Convert lists to sets, substract them
     diff = list(set(list1) - set(list2))
