@@ -33,6 +33,8 @@ def differences_lists(list1, list2):
 
 list1 = file2array(sys.argv[1])
 list2 = file2array(sys.argv[2])
+
+# Schleife
 for element in (compare_lists(list1, list2)):
     print (element.strip())
 
