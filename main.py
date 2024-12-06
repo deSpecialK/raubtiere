@@ -13,9 +13,6 @@ def file2array (filename):
     
     return list
 
-
-    
-
 #Funktion zum Vergleichen zweier Listen
 def compare_lists(list1, list2):
     #vergleich beide Listen und schreibt eine Liste aller Uebereinstimmungen in die Variable common
@@ -33,6 +30,9 @@ def differences_lists(list1, list2):
 
 list1 = file2array(sys.argv[1])
 list2 = file2array(sys.argv[2])
+
 for element in (compare_lists(list1, list2)):
     print (element.strip())
 
+#for element in (differences_lists(list1, list2)):
+    #print (element.strip())
